@@ -1,193 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKARASHAK MISHRA - Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Akarashak Mishra Resume</title>
+
+  <style>
+.portfolio-logos {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.logo-link svg {
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px #eaeaea88;
+}
+.logo-link:hover svg {
+  transform: scale(1.13);
+  box-shadow: 0 6px 18px #d3e0ea;
+}
+
+
+
+    .date-place { letter-spacing: 3px; color: #dc1c5c; font-size: 0.95em; }
+    .container { max-width: 900px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 6px 24px 0 #d3e0ea; padding: 36px; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f9fa; margin: 0; padding: 0; }
+    .subtitle { color: #1f3798; font-size: 1.2em; font-weight: 500; }
+    .contact { margin: 18px 0 14px 0; color: #555; }
+    .contact span:not(:last-child)::after { content: "│"; margin: 0 10px; color: #ccc; }
+    h2 { font-size: 1.15em; margin: 32px 0 8px 0; color: #05386b; letter-spacing: 1px; font-weight: 600; }
+    ul { margin: 0 0 12px 22px; }
+    .section { margin-bottom: 16px; }
+      .container { padding: 13px; }
+    .skills-list { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 10px;}
+    .skill { background: #046ed9; color: #f3f5f7; border-radius: 7px; padding: 5px 11px; font-size: 0.98em; }
+    .achievements, .interests { list-style-type: disc; margin-left: 22px; }
+    @media (max-width: 700px) {
+      .container { padding: 13px; }
+      h1 { font-size: 1.45em; }
+    .item { margin-bottom: 7px; }
+      
+    }
+  </style>
 </head>
 <body>
-    <div class="resume-container">
-        <!-- Header Section -->
-        <header class="header">
-           
-            <div class="header-left">
-                 <h2>AKARASHAK MISHRA</h2>
-                <a href="https://portfolio-rtzj-j0nxq3r2g-mishra46er-7701s-projects.vercel.app" class="portfolio-link" target="_blank" rel="noopener">Portfolio Website</a>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="contact-label">Email:</span>
-                        <a href="mailto:aveshmishra51@gmail.com">aveshmishra51@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">Phone:</span>
-                        <span>+917304693168</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label">Location:</span>
-                        <span>Prayagraj</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="header-right">
-                <div class="portfolio-logos">
-                    <a href="https://www.linkedin.com/in/akarashak-mishra-5a0013250/" class="logo-link linkedin" target="_blank" rel="noopener" title="LinkedIn Profile">
-                        <div class="logo">LI</div>
-                    </a>
-                    <a href="https://leetcode.com/u/Akarshak51/" class="logo-link leetcode" target="_blank" rel="noopener" title="LeetCode Profile">
-                        <div class="logo">LC</div>
-                    </a>
-                   
-                    <a href="https://www.codechef.com/users/clear_mood_66" class="logo-link codechef" target="_blank" rel="noopener" title="CodeChef Profile">
-                        <div class="logo">CC</div>
-                    </a>
-                    
-                    <a href="https://github.com/Akarshak51" class="logo-link github" target="_blank" rel="noopener" title="GitHub Profile">
-                        <div class="logo">GH</div>
-                    </a>
-                </div>
-            </div>
-        </header>
+  <div class="container">
+    <h1>Akarashak Mishra</h1>
+    <div class="subtitle">B.Tech Student – Electronics/Communication</div>
+    <div class="contact">
+      <span>📞 +91 7304693168</span>
+      <span>📧 aveshmishra51@gmail.com</span>
+      <span>📍 Prayagraj</span>
+    </div>
+    <div class="header-right">
+  <div class="portfolio-logos">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/akarashak-mishra-5a0013250/" class="logo-link" target="_blank" rel="noopener" title="LinkedIn Profile">
+      <svg width="32" height="32" viewBox="0 0 16 16" fill="#0A66C2" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+      </svg>
+    </a>
+    <!-- LeetCode -->
+    <a href="https://leetcode.com/u/Akarshak51/" class="logo-link" target="_blank" rel="noopener" title="LeetCode Profile">
+      <svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M37,40L26,29L39,16" stroke="#FFA116" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M46,56C32,56,14,46,14,32C14,18,32,8,46,8" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <!-- CodeChef -->
+    <a href="https://www.codechef.com/users/clear_mood_66" class="logo-link" target="_blank" rel="noopener" title="CodeChef Profile">
+      <svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="32" cy="44" rx="18" ry="7" fill="#684A2F"/>
+        <rect x="22" y="24" width="20" height="20" rx="8" fill="#CAA472"/>
+        <rect x="19" y="32" width="26" height="7" rx="3.5" fill="#684A2F"/>
+      </svg>
+    </a>
+    <!-- GitHub -->
+    <a href="https://github.com/Akarshak51" class="logo-link" target="_blank" rel="noopener" title="GitHub Profile">
+      <svg width="32" height="32" viewBox="0 0 16 16" fill="#181717" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89
+        -3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27
+        2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82
+        2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+        8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+    </a>
+  </div>
+</div>
 
-        <!-- Main Content -->
-        <main class="main-content" id="main-content">
-            <!-- Left Column -->
-            <div class="left-column">
-                <!-- Career Objective -->
-                <section class="section">
-                    <h2 class="section-title">CAREER OBJECTIVE</h2>
-                    <p class="objective-text">Motivated and innovative B.Tech student specializing Electronics/Communication from Institute of Engineering & Rural Technology. Skills in circuit connections, coding, robotics, and AI. Aim to revolutionize firefighting with advanced technology for enhanced safety and efficiency.</p>
-                </section>
-
-                <!-- Education -->
-                <section class="section">
-                    <h2 class="section-title">EDUCATION</h2>
-                    <div class="education-list">
-                        <div class="education-item">
-                            <h3 class="degree">B.Tech, Electronics and Communication</h3>
-                            <div class="institution">Institute of Engineering and Rural Technology, Allahabad</div>
-                            <div class="year">2023 - 2027</div>
-                        </div>
-                       
-                    </div>
-                </section>
-
-                <!-- Work Experience -->
-                <section class="section">
-                    <h2 class="section-title">WORK EXPERIENCE</h2>
-
-                 <div class="experience-list">
-                        <div class="experience-item">
-                            <h3 class="job-title">Hackathon</h3>
-                            <h3 class = "Rank">3rd</h3>
-                            <div class="company">Amity University</div>
-                            <div class="date">Jul 2025</div>
-                        </div>
-
-                    <div class="experience-list">
-                        <div class="experience-item">
-                            <h3 class="job-title">Cybersecurity Analyst Internship</h3>
-                            <div class="company">TATA, Virtual</div>
-                            <div class="date">Jul 2025</div>
-                        </div>
-
-
-                        <div class="experience-item">
-                            <h3 class="job-title">GenAI Powered Data Analytics Internship</h3>
-                            <div class="company">TATA, Virtual</div>
-                            <div class="date">Jul 2025</div>
-                        </div>
-
-
-
-                        <div class="experience-item">
-                            <h3 class="job-title">Solution Architecture Internship</h3>
-                            <div class="company">AWS, Virtual</div>
-                            <div class="date">Jul 2025</div>
-                        </div>
-
-
-                
-
-                        
-                    </div>
-                </section>
-            </div>
-
-            <!-- Right Column -->
-            <div class="right-column">
-                <!-- Skills -->
-                <section class="section">
-                    <h2 class="section-title">SKILLS</h2>
-                    <div class="skills-category">
-                        <h3 class="skills-subtitle">Languages:</h3>
-                        <div class="skills-list">Python, C++ ,SQL, JavaScript, HTML, CSS </div>
-                    </div>
-                    <div class="skills-category">
-                        <h3 class="skills-subtitle">Frameworks:</h3>
-                        <div class="skills-list">Flask (backend, REST APIs)
-
-React.js, Node.js, Express.js
-, PyTorch (AI/ML ),
-
-Pandas, NumPy, Matplotlib</div>
- <div class="skills-category">
-                        <h3 class="skills-subtitle">Tools:</h3>
-                        <div class="skills-list">VS Code, Jupyter Notebook, Replit,Git , Postman, MS 365</div>
-                    </div>
-                    </div>
-                </section>
-
-                <!-- Projects -->
-                <section class="section">
-                    <h2 class="section-title">PROJECTS</h2>
-                     <div class="projects-list">
-                        <div class="project-item">
-                            <h3 class="project-title">Object Detection</h3>
-                           
-                            <a href="https://yolo-object-detection-voice.vercel.app/">Website</a>
-                            
-                        
-                            <div class="project-date">Aug 2025</div>
-                            
-                        </div>
-
-                    <div class="projects-list">
-                        <div class="project-item">
-                            <h3 class="project-title">ALL-IN-ONE CALCULATOR WEB APP</h3>
-                           
-                            <a href="https://all-calc-5eml-ebw1coj7l-mishra46er-7701s-projects.vercel.app" class="link" target="_blank" rel="noopener">Website</a>
-                            
-                        
-                            <div class="project-date">Jun 2025</div>
-                            
-                        </div>
-                    
-                        <div class="project-item">
-                            <h3 class="project-title">AUTOMATED FIRE EXTINGUISHER ROBOT</h3>
-                            <div class="project-date">Dec 2024 - Jan 2025</div>
-                            <ul class="project-description">
-                                <li>Developed autonomous robotic system for fire detection and extinguishing</li>
-                                <li>Reduced human intervention using IoT & Embedded Systems integration</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Extra Curricular Activities -->
-                <section class="section">
-                    <h2 class="section-title">EXTRA CURRICULAR ACTIVITIES</h2>
-                    <ul class="activities-list">
-                        <li>Leadership & Team Management</li>
-                        <li>Communication (technical + professional presentation)</li>
-                        <li>Organizational Skills: Managed time, resources, and tasks efficiently</li>
-                    </ul>
-                </section>
-            </div>
-        </main>
+    <div class="section">
+      <h2>Summary</h2>
+      <p>
+        Motivated B.Tech student specializing in Electronics and Communication, passionate about innovative technology solutions. Experience includes internships in cybersecurity and data analytics with skills in AI and coding. Aims to leverage technology for efficient systems that enhance safety in firefighting and beyond.
+      </p>
     </div>
 
-    <script src="app.js"></script>
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="item">
+        <span class="project-title" >Object Detection Website</span>
+         
+        <a href="https://yolo-object-detection-voice.vercel.app/">Website</a>
+        <span class="date-place" >08/2025</span><br>
+        <ul>
+          <li>Developed an advanced AI-powered object detection web app</li>
+        </ul>
+      </div>
+      <div class="item">
+        <span class="project-title">All-in-One Calculator Web App</span>
+         <a href="https://all-calc-5eml-ebw1coj7l-mishra46er-7701s-projects.vercel.app/">Website</a>
+        <span class="date-place">06/2025</span><br>
+        <ul>
+          <li>Built a versatile calculator with multiple functions as part of a coding initiative</li>
+        </ul>
+      </div>
+      <div class="item">
+        <span class="project-title">Automated Fire Extinguisher Robot</span>
+        <span class="date-place">12/2024 – 01/2025</span><br>
+        <ul>
+          <li>Created IoT-embedded robotic system for autonomous fire detection and extinguishing</li>
+          <li>Reduced human intervention with autonomous features</li>
+        </ul>
+      </div>
+    </div>
+
+    
+   
+    <div class="section">
+      <h2>Key Achievements</h2>
+      <ul class="achievements">
+        <li>3rd Rank, Amity University Hackathon</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-list">
+        <span class="skill">AWS</span>
+        <span class="skill">C/C++</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Cybersecurity</span>
+        <span class="skill">Flask</span>
+        <span class="skill">Git</span>
+        <span class="skill">HTML</span>
+        <span class="skill">IoT</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Jupyter</span>
+        <span class="skill">Jupyter Notebook</span>
+        <span class="skill">MatplotLib</span>
+        <span class="skill">Numpy</span>
+        <span class="skill">Pandas</span>
+        <span class="skill">Postman</span>
+        <span class="skill">Python</span>
+        <span class="skill">PyTorch</span>
+        <span class="skill">React</span>
+        <span class="skill">REST</span>
+        <span class="skill">Robotics</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Visual Studio Code</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">Express.js</span>
+        <span class="skill">Gmail</span>
+      </div>
+    </div>
+
+     <div class="section">
+      <h2>Experience</h2>
+      <div class="item">
+        <strong>Cybersecurity Analyst Internship · TATA</strong>
+        <span class="date-place">07/2025 – 01/1970 (Virtual)</span><br>
+        <ul>
+          <li>Worked in a virtual environment focused on cybersecurity</li>
+          <li>Enhanced skills in cybersecurity protocols</li>
+          <li>Participated in a hackathon demonstrating problem-solving and coding</li>
+        </ul>
+      </div>
+      <div class="item">
+        <strong>GenAI Powered Data Analytics Internship · TATA</strong>
+        <span class="date-place">07/2025 – 01/1970 (Virtual)</span><br>
+        <ul>
+          <li>Internship focused on AI and data analytics</li>
+          <li>Data analytics for projects using generative AI tech</li>
+          <li>Collaborated virtually on data-driven solutions</li>
+        </ul>
+      </div>
+      <div class="item">
+        <strong>Solution Architecture Internship · AWS</strong>
+        <span class="date-place">07/2025 – 01/1970 (Virtual)</span><br>
+        <ul>
+          <li>Internship centered on solution architecture in a virtual setup</li>
+          <li>Engaged in architecture tasks in the cloud</li>
+          <li>Designed scalable cloud solutions</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Education</h2>
+      <strong>B.Tech, Institute of Engineering and Rural Technology</strong><br>
+      <span class="date-place">Allahabad · 08/2023 – 05/2027</span>
+    </div>
+
+    
+    <div class="section">
+      <h2>Interests</h2>
+      <ul class="interests">
+        <li>Leadership &amp; Team Management – managing teams and projects effectively</li>
+        <li>Communication – technical and professional presentations</li>
+        <li>Organizational Skills – efficient management of time, resources, and tasks</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
